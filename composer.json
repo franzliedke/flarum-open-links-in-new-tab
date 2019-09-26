@@ -1,0 +1,26 @@
+{
+    "name": "franzl/flarum-open-links-in-new-tab",
+    "description": "Open all links in post contents in a new tab or window",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^0.1.0-beta.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Franz Liedke",
+            "email": "franz@develophp.org"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Open Links in New Tab",
+            "icon": {
+                "name": "fas fa-link"
+            }
+        }
+    }
+}
